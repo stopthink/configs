@@ -1,0 +1,17 @@
+[user]
+    name = David Alexander
+    email = dave@sparkfire.net
+
+[core]
+    pager = less -FRSX
+    editor = vim
+    autocrlf = input
+
+[color]
+    ui = true
+
+[alias]
+    s = status
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[diff]
+	external = ~/utilities/diff.py
