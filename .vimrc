@@ -24,3 +24,5 @@ set expandtab
 if has("gui_running")
     set guioptions=-t
 endif
+
+let NERDTreeIgnore = ['\.pyc$']
