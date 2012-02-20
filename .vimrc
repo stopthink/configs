@@ -2,7 +2,7 @@ syntax on
 :colorscheme lucius
 
 " set font and font size
-set guifont=Monospace\ 9 
+set guifont=Monaco\ for\ Powerline\ 9 
 
 " turn on line numbers
 set number
